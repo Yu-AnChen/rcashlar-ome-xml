@@ -1,0 +1,40 @@
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd" UUID="urn:uuid:cc33743a-aa89-11ee-979c-f2d35865f520" Creator="1.17.0+62.gd4fdffc6c295">
+    <Instrument ID="Instrument:0">
+        <Microscope Manufacturer="RareCyte" Model="CyteFinder II" SerialNumber="HT-3372001"/>
+        <Objective SerialNumber="18108" ID="Objective:0" LensNA="0.75" NominalMagnification="20.0"/>
+    </Instrument>
+    <Image ID="Image:0" Name="Image0">
+        <AcquisitionDate>2023-05-23T16:25:41.657076</AcquisitionDate>
+        <Pixels ID="Pixels:0" DimensionOrder="XYCZT" Type="uint16" SizeX="13510" SizeY="17398" SizeZ="1" SizeC="4" SizeT="1" PhysicalSizeX="0.6499999761581421" PhysicalSizeXUnit="µm" PhysicalSizeY="0.6499999761581421" PhysicalSizeYUnit="µm">
+            <Channel ID="Channel:0" Name="DAPI-nuclear" ExcitationWavelength="395.0" EmissionWavelength="438.0">
+                <AnnotationRef ID="Annotation:0"/>
+            </Channel>
+            <Channel ID="Channel:1" Name="CytoChromeC-mitochondrial" ExcitationWavelength="485.0" EmissionWavelength="522.0">
+                <AnnotationRef ID="Annotation:0"/>
+            </Channel>
+            <Channel ID="Channel:2" Name="pERK-cytoplasmic" ExcitationWavelength="555.0" EmissionWavelength="590.0">
+                <AnnotationRef ID="Annotation:0"/>
+            </Channel>
+            <Channel ID="Channel:3" Name="p53-nuclear" ExcitationWavelength="651.0" EmissionWavelength="692.0">
+                <AnnotationRef ID="Annotation:0"/>
+            </Channel>
+            <TiffData IFD="0" PlaneCount="4"/>
+            <Plane TheZ="0" TheT="0" TheC="0" ExposureTime="0.005" ExposureTimeUnit="s"/>
+            <Plane TheZ="0" TheT="0" TheC="1" ExposureTime="0.1" ExposureTimeUnit="s"/>
+            <Plane TheZ="0" TheT="0" TheC="2" ExposureTime="0.2" ExposureTimeUnit="s"/>
+            <Plane TheZ="0" TheT="0" TheC="3" ExposureTime="0.125" ExposureTimeUnit="s"/>
+        </Pixels>
+    </Image>
+    <StructuredAnnotations>
+        <XMLAnnotation ID="Annotation:0">
+            <Value>
+                <ChannelMetadata>
+                    <ImageFilepath>/demo-data/project/metadata-ome-xml/1/LSP12961@20220303_172619_611270.rcpnl</ImageFilepath>
+                    <AcquisitionDate>2023-05-23T16:25:41.657076</AcquisitionDate>
+                    <IsSubtracted>False</IsSubtracted>
+                </ChannelMetadata>
+            </Value>
+        </XMLAnnotation>
+    </StructuredAnnotations>
+</OME>
